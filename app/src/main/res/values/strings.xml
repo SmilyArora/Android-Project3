@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="welcome" >QUIZ FOR YOU:</string>
+    <string name="name">Your Name:</string>
+
+    <string name="ques1">Q1.</string>
+    <string name="ques2">Q2.</string>
+    <string name="ques3">Q3.</string>
+    <string name="ques4">Q4.</string>
+    <string name="ques5">Q5.</string>
+
+    <string name="q1">Starting from top, which layer adds port number to a packet ?</string>
+    <string name="q2">Which one of the following is not a function of network layer ?</string>
+    <string name="q3">The OSI model has ________ layers ?</string>
+    <string name="q4">Which layer is responsible for process to process delievery ?</string>
+    <string name="q5">What is correct about SMTP ?</string>
+
+    <string name="q1_1">Application Layer</string>
+    <string name="q1_2">Transmission Control</string>
+    <string name="q1_3">Internet Layer</string>
+    <string name="q1_4">Hardware</string>
+
+    <string name="q2_1">Routing</string>
+    <string name="q2_2">Inter-networking</string>
+    <string name="q2_3">Congestion Control</string>
+    <string name="q2_4">None of the above</string>
+
+    <string name="q3_1">4</string>
+    <string name="q3_2">5</string>
+    <string name="q3_3">6</string>
+    <string name="q3_4">7</string>
+
+    <string name="q4_1">Network Layer</string>
+    <string name="q4_2">Transport Layer</string>
+    <string name="q4_3">Session Layer</string>
+    <string name="q4_4">Data Link Layer</string>
+
+    <string name="q5_1">E-mail uses SMTP</string>
+    <string name="q5_2">Text based protocol and is connection less like HTTP.</string>
+    <string name="q5_3">Text based protocol but is connection oriented unlike HTTP.</string>
+    <string name="q5_4">All of the above.</string>
+
+    <string name="submit">SUBMIT</string>
+    <string name="done">Display Score</string>
+    <string name="scored">You Scored:</string>
+</resources>
