@@ -11,7 +11,7 @@
 
     <string name="q1">Starting from top, which layer adds port number to a packet ?</string>
     <string name="q2">Which one of the following is not a function of network layer ?</string>
-    <string name="q3">The OSI model has ________ layers ?</string>
+    <string name="q3">The number of layers in OSI model are ?</string>
     <string name="q4">Which layer is responsible for process to process delievery ?</string>
     <string name="q5">What is correct about SMTP ?</string>
 
@@ -24,11 +24,6 @@
     <string name="q2_2">Inter-networking</string>
     <string name="q2_3">Congestion Control</string>
     <string name="q2_4">None of the above</string>
-
-    <string name="q3_1">4</string>
-    <string name="q3_2">5</string>
-    <string name="q3_3">6</string>
-    <string name="q3_4">7</string>
 
     <string name="q4_1">Network Layer</string>
     <string name="q4_2">Transport Layer</string>

@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     void submit(View view){
         RadioButton rb1 = (RadioButton) findViewById(R.id.q1_ans);
         RadioButton rb2 = (RadioButton) findViewById(R.id.q2_ans);
-        RadioButton rb3 = (RadioButton) findViewById(R.id.q3_ans);
         RadioButton rb4 = (RadioButton) findViewById(R.id.q4_ans);
         CheckBox cb1 = (CheckBox) findViewById(R.id.q5_ans1);
         CheckBox cb2 = (CheckBox) findViewById(R.id.q5_ans2);
@@ -40,14 +39,24 @@ public class MainActivity extends AppCompatActivity {
         if(rb2.isChecked()){
             score++;
         }
-        if(rb3.isChecked()){
-            score++;
-        }
         if(rb4.isChecked()){
             score++;
         }
         if(cb1.isChecked() && cb2.isChecked() && !cb3.isChecked() && !cb4.isChecked() ){
             score++;
+        }
+        EditText edit_ans = (EditText) findViewById(R.id.q3_ans);
+        String ans3 = edit_ans.getText().toString().trim();
+        if(ans3.equals("7")){
+            score++;
+        }
+        else if(ans3.equals("Seven"))
+        {
+            score ++ ;
+        }
+        else
+        {
+            score += 0;
         }
         EditText ed = (EditText) findViewById(R.id.name);
         Toast.makeText(this, "Test score for User " + ed.getText().toString().trim() + " is:" + score +"/5",Toast.LENGTH_LONG).show();
